@@ -1,0 +1,15 @@
+body{
+    background-image: url(port.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3{
+    background-image: url(project1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3{
+background-image: url(project2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
