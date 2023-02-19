@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Venu madhavi.P 
+                My aim is to To secure a challenging position in a reputable organisation to expand my learnings knowledge, and skills. Secure a responsible career opportunity to fully utilise my training and skills, while making a significant contribution to the success of the company.</p>
+        </section>
+        <section id="work">
+            <h2>My Work</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Mind Blaze:
+                    It is a project where me and my classmate had worked on ai based sensors which could help customers for easy shopping!!!.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Coursera :
+                    I have worked on many mini projects and courses on coursera in order to gain knowledge about coding and aptitude skills.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> Signature: <br> Venu Madhavi.P</p>
+    </footer>
+</html>
